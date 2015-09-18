@@ -2,6 +2,7 @@
 
 var API = require('booljs-api');
 
-module.exports = new API.DatabaseDriver('booljs-firebase', {
-    
-});
+module.exports = new API.DatabaseLoader(
+    'booljs-firebase', // Name
+    require('./lib') // Functions
+);
