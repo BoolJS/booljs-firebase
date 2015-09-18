@@ -1,0 +1,25 @@
+{
+  "name": "booljs-firebase",
+  "version": "0.0.1",
+  "description": "Firebase driver for bool.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/booljs/booljs-firebase.git"
+  },
+  "keywords": [
+    "bool.js",
+    "firebase",
+    "database",
+    "driver"
+  ],
+  "author": "Pablo Andrés Dorado Suárez <pandres95@gentebool.com> (http://pandres95.me/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/booljs/booljs-firebase/issues"
+  },
+  "homepage": "https://github.com/booljs/booljs-firebase#readme"
+}
