@@ -1,6 +1,6 @@
 {
   "name": "booljs-firebase",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Firebase driver for bool.js",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,13 @@
     "url": "https://github.com/booljs/booljs-firebase/issues"
   },
   "homepage": "https://github.com/booljs/booljs-firebase#readme",
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
+  "peerDependencies": {
+    "booljs-api": "0.3.x"
+  },
   "devDependencies": {
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
